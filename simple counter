@@ -1,0 +1,4 @@
+#simple counter 
+for number in range(0, 1_001, 1): #counter is limited to 1_000.  Second argument is the limit of counter.
+  if number <= 1_000:
+    print (number)
